@@ -109,11 +109,11 @@ def validate_product_count(context, total_count):
         assert False, "Test is failed due to unable to fetch product count"
 
 
-@then('the total items count is "{total_count}"')
-def validate_product_count_based_on_size(context, size, total_count):
+@then('the total items count is "{total_size_count}"')
+def validate_product_count_based_on_size(context, total_size_count):
     try:
         product_count = context.cardPage.fetch_product_details()
-        if int(total_count) == int(product_count):
+        if int(total_size_count) == int(product_count):
             logger.info("total product count is " + str(product_count))
     except:
         context.driver.close()
@@ -130,7 +130,7 @@ def step_when_user_adds_free_shipping_items(context):
 
 
 @when('the user adds 1 random items without Free shipping to the cart')
-def step_when_user_adds_free_shipping_items(context):
+def step_when_user_adds_without_free_shipping_items(context):
     try:
         context.cardPage.select_without_free_shipping_product()
     except:
@@ -138,11 +138,11 @@ def step_when_user_adds_free_shipping_items(context):
         assert False, "Test is failed due to unable to select without free shipping"
 
 
-@then('the total cart item count is "{total_count}"')
-def validate_cart_item(context, total_count):
+@then('the total cart item count is "{total_cart_count}"')
+def validate_cart_item(context, total_cart_count):
     try:
         cart_count = context.cardPage.fetch_cart_items_details()
-        if int(total_count) == int(cart_count):
+        if int(total_cart_count) == int(cart_count):
             logger.info("total cart count is " + str(cart_count))
     except:
         context.driver.close()

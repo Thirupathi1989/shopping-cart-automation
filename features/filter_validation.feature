@@ -24,5 +24,5 @@ Feature: Filter Validations
     Then the total items count is "2"
     When the user selects size "M"
     Then the total items count is "1"
-    When the user filtered multiple size "S" and "M"
-    Then the total count based on filtered by sizes is "3"
+    When the user filtered multiple size "L" and "XL"
+    Then the total count based on filtered by sizes is "16"
