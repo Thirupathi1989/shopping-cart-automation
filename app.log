@@ -1,0 +1,264 @@
+2025-02-04 10:41:24,935 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 10:41:24,936 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 10:41:24,936 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 10:41:24,937 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 10:41:24,937 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 10:41:24,938 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 10:41:24,939 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 10:42:38,040 - builtins - INFO - 1 Product(s) found
+2025-02-04 10:43:44,887 - builtins - INFO - 2 Product(s) found
+2025-02-04 10:47:12,714 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 10:47:12,714 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 10:47:12,715 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 10:47:12,715 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 10:47:12,716 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 10:47:12,717 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 10:47:12,717 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 10:47:33,976 - builtins - INFO - [1]
+2025-02-04 10:47:51,599 - builtins - INFO - [2]
+2025-02-04 10:48:09,336 - builtins - INFO - [1]
+2025-02-04 10:48:25,183 - builtins - INFO - [2]
+2025-02-04 10:48:40,856 - builtins - INFO - [10]
+2025-02-04 10:48:56,898 - builtins - INFO - [10]
+2025-02-04 10:49:13,623 - builtins - INFO - [4]
+2025-02-04 11:00:46,138 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 11:00:46,138 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 11:00:46,139 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 11:00:46,139 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 11:00:46,140 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 11:00:46,140 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 11:00:46,141 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 11:01:08,392 - builtins - INFO - 1
+2025-02-04 11:01:26,404 - builtins - INFO - 2
+2025-02-04 11:01:42,138 - builtins - INFO - 1
+2025-02-04 11:01:57,717 - builtins - INFO - 2
+2025-02-04 11:02:13,153 - builtins - INFO - 10
+2025-02-04 11:02:40,306 - builtins - INFO - 10
+2025-02-04 11:02:56,721 - builtins - INFO - 4
+2025-02-04 11:03:02,972 - selenium.webdriver.common.service - ERROR - Error terminating service process.
+Traceback (most recent call last):
+  File "C:\Users\611664523\PycharmProjects\shopping_cart\venv\lib\site-packages\selenium\webdriver\common\service.py", line 181, in _terminate_process
+    self.process.terminate()
+  File "C:\Users\611664523\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1571, in terminate
+    _winapi.TerminateProcess(self._handle, 1)
+OSError: [WinError 6] The handle is invalid
+2025-02-04 11:05:36,863 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 11:05:36,863 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 11:05:36,863 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 11:05:36,863 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 11:05:36,863 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 11:05:36,863 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 11:05:36,863 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 11:09:21,327 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 11:09:21,327 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 11:09:21,327 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 11:09:21,327 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 11:09:21,327 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 11:09:21,327 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 11:09:21,327 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 11:09:45,551 - builtins - INFO - 1
+2025-02-04 11:10:05,022 - builtins - INFO - 2
+2025-02-04 11:10:21,160 - builtins - INFO - 1
+2025-02-04 11:10:38,251 - builtins - INFO - 2
+2025-02-04 11:10:56,359 - builtins - INFO - 10
+2025-02-04 11:11:20,359 - builtins - INFO - 10
+2025-02-04 11:11:37,203 - builtins - INFO - 4
+2025-02-04 11:11:43,531 - selenium.webdriver.common.service - ERROR - Error terminating service process.
+Traceback (most recent call last):
+  File "C:\Users\611664523\PycharmProjects\shopping_cart\venv\lib\site-packages\selenium\webdriver\common\service.py", line 181, in _terminate_process
+    self.process.terminate()
+  File "C:\Users\611664523\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1571, in terminate
+    _winapi.TerminateProcess(self._handle, 1)
+OSError: [WinError 6] The handle is invalid
+2025-02-04 11:12:48,639 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 11:12:48,640 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 11:12:48,640 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 11:12:48,641 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 11:12:48,641 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 11:12:48,642 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 11:12:48,643 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 12:00:10,079 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 12:00:10,079 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 12:00:10,080 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 12:00:10,080 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 12:00:10,081 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 12:00:10,081 - parse - DEBUG - format 'the user filtered multiple size "{size1}" and "{size2}"' -> 'the user filtered multiple size "(?P<size1>.+?)" and "(?P<size2>.+?)"'
+2025-02-04 12:00:10,082 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 12:00:10,082 - parse - DEBUG - format 'the total count based on filtered by sizes is "{total_count}"' -> 'the total count based on filtered by sizes is "(?P<total_count>.+?)"'
+2025-02-04 12:03:51,550 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 12:03:51,551 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 12:03:51,551 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 12:03:51,552 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 12:03:51,552 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 12:03:51,553 - parse - DEBUG - format 'the user filtered multiple size "{size1}" and "{size2}"' -> 'the user filtered multiple size "(?P<size1>.+?)" and "(?P<size2>.+?)"'
+2025-02-04 12:03:51,553 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 12:03:51,554 - parse - DEBUG - format 'the total count based on filtered by sizes is "{total_count}"' -> 'the total count based on filtered by sizes is "(?P<total_count>.+?)"'
+2025-02-04 12:03:51,555 - parse - DEBUG - format 'the total items count is "{total_count}"' -> 'the total items count is "(?P<total_count>.+?)"'
+2025-02-04 12:03:51,555 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 12:04:13,224 - builtins - INFO - total product count is 1
+2025-02-04 12:04:31,141 - builtins - INFO - total product count is 2
+2025-02-04 12:04:46,655 - builtins - INFO - total product count is 1
+2025-02-04 12:05:02,107 - builtins - INFO - total product count is 2
+2025-02-04 12:05:17,655 - builtins - INFO - total product count is 10
+2025-02-04 12:05:41,235 - builtins - INFO - total product count is 10
+2025-02-04 12:05:57,495 - builtins - INFO - total product count is 4
+2025-02-04 12:06:40,828 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 12:06:40,828 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 12:06:40,828 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 12:06:40,828 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 12:06:40,828 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 12:06:40,828 - parse - DEBUG - format 'the user filtered multiple size "{size1}" and "{size2}"' -> 'the user filtered multiple size "(?P<size1>.+?)" and "(?P<size2>.+?)"'
+2025-02-04 12:06:40,828 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 12:06:40,828 - parse - DEBUG - format 'the total count based on filtered by sizes is "{total_count}"' -> 'the total count based on filtered by sizes is "(?P<total_count>.+?)"'
+2025-02-04 12:06:40,828 - parse - DEBUG - format 'the total items count is "{total_count}"' -> 'the total items count is "(?P<total_count>.+?)"'
+2025-02-04 12:06:40,828 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 12:06:56,481 - builtins - INFO - total product count is 1
+2025-02-04 12:07:13,711 - builtins - INFO - total product count is 2
+2025-02-04 12:07:30,311 - builtins - INFO - total product count is 1
+2025-02-04 12:07:50,047 - builtins - INFO - total product count is 2
+2025-02-04 12:08:07,463 - builtins - INFO - total product count is 10
+2025-02-04 12:08:34,796 - builtins - INFO - total product count is 10
+2025-02-04 12:08:55,974 - builtins - INFO - total product count is 4
+2025-02-04 12:11:58,894 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 12:11:58,895 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 12:11:58,895 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 12:11:58,895 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 12:11:58,895 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 12:11:58,896 - parse - DEBUG - format 'the user filtered multiple size "{size1}" and "{size2}"' -> 'the user filtered multiple size "(?P<size1>.+?)" and "(?P<size2>.+?)"'
+2025-02-04 12:11:58,896 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 12:11:58,897 - parse - DEBUG - format 'the total count based on filtered by sizes is "{total_count}"' -> 'the total count based on filtered by sizes is "(?P<total_count>.+?)"'
+2025-02-04 12:11:58,897 - parse - DEBUG - format 'the total items count is "{total_count}"' -> 'the total items count is "(?P<total_count>.+?)"'
+2025-02-04 12:11:58,898 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 12:12:22,494 - builtins - INFO - total product count is 1
+2025-02-04 12:12:38,355 - builtins - INFO - total product count is 2
+2025-02-04 12:12:56,416 - builtins - INFO - total product count is 1
+2025-02-04 12:13:12,107 - builtins - INFO - total product count is 2
+2025-02-04 12:13:28,211 - builtins - INFO - total product count is 10
+2025-02-04 12:13:52,358 - builtins - INFO - total product count is 10
+2025-02-04 12:14:15,032 - builtins - INFO - total product count is 4
+2025-02-04 12:17:17,355 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 12:17:17,356 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 12:17:17,356 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 12:17:17,357 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 12:17:17,357 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 12:17:17,358 - parse - DEBUG - format 'the user filtered multiple size "{size1}" and "{size2}"' -> 'the user filtered multiple size "(?P<size1>.+?)" and "(?P<size2>.+?)"'
+2025-02-04 12:17:17,358 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 12:17:17,359 - parse - DEBUG - format 'the total count based on filtered by sizes is "{total_count}"' -> 'the total count based on filtered by sizes is "(?P<total_count>.+?)"'
+2025-02-04 12:17:17,359 - parse - DEBUG - format 'the total items count is "{total_count}"' -> 'the total items count is "(?P<total_count>.+?)"'
+2025-02-04 12:17:17,360 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 12:17:34,302 - builtins - INFO - total product count is 1
+2025-02-04 12:17:49,962 - builtins - INFO - total product count is 2
+2025-02-04 12:18:07,617 - builtins - INFO - total product count is 1
+2025-02-04 12:18:23,471 - builtins - INFO - total product count is 2
+2025-02-04 12:18:39,300 - builtins - INFO - total product count is 10
+2025-02-04 12:19:03,429 - builtins - INFO - total product count is 10
+2025-02-04 12:19:20,010 - builtins - INFO - total product count is 4
+2025-02-04 12:21:47,083 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 12:21:47,083 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 12:21:47,084 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 12:21:47,084 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 12:21:47,085 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 12:21:47,085 - parse - DEBUG - format 'the user filtered multiple size "{size1}" and "{size2}"' -> 'the user filtered multiple size "(?P<size1>.+?)" and "(?P<size2>.+?)"'
+2025-02-04 12:21:47,086 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 12:21:47,086 - parse - DEBUG - format 'the total count based on filtered by sizes is "{total_count}"' -> 'the total count based on filtered by sizes is "(?P<total_count>.+?)"'
+2025-02-04 12:21:47,087 - parse - DEBUG - format 'the total items count is "{total_count}"' -> 'the total items count is "(?P<total_count>.+?)"'
+2025-02-04 12:21:47,089 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 12:22:04,989 - builtins - INFO - total product count is 1
+2025-02-04 12:22:27,562 - builtins - INFO - total product count is 2
+2025-02-04 12:22:48,369 - builtins - INFO - total product count is 1
+2025-02-04 12:23:08,712 - builtins - INFO - total product count is 2
+2025-02-04 12:23:33,714 - builtins - INFO - total product count is 10
+2025-02-04 12:23:59,628 - builtins - INFO - total product count is 10
+2025-02-04 12:24:24,405 - builtins - INFO - total product count is 4
+2025-02-04 12:27:33,050 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 12:27:33,050 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 12:27:33,050 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 12:27:33,050 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 12:27:33,050 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 12:27:33,050 - parse - DEBUG - format 'the user filtered multiple size "{size1}" and "{size2}"' -> 'the user filtered multiple size "(?P<size1>.+?)" and "(?P<size2>.+?)"'
+2025-02-04 12:27:33,050 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 12:27:33,050 - parse - DEBUG - format 'the total count based on filtered by sizes is "{total_count}"' -> 'the total count based on filtered by sizes is "(?P<total_count>.+?)"'
+2025-02-04 12:27:33,050 - parse - DEBUG - format 'the total items count is "{total_count}"' -> 'the total items count is "(?P<total_count>.+?)"'
+2025-02-04 12:27:33,050 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 12:27:50,846 - builtins - INFO - total product count is 1
+2025-02-04 12:28:14,118 - builtins - INFO - total product count is 2
+2025-02-04 12:28:32,310 - builtins - INFO - total product count is 1
+2025-02-04 12:28:50,911 - builtins - INFO - total product count is 2
+2025-02-04 12:29:15,530 - builtins - INFO - total product count is 10
+2025-02-04 12:29:35,347 - builtins - INFO - total product count is 10
+2025-02-04 12:30:00,109 - builtins - INFO - total product count is 4
+2025-02-04 12:32:49,753 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 12:32:49,754 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 12:32:49,755 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 12:32:49,756 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 12:32:49,757 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 12:32:49,758 - parse - DEBUG - format 'the user filtered multiple size "{size1}" and "{size2}"' -> 'the user filtered multiple size "(?P<size1>.+?)" and "(?P<size2>.+?)"'
+2025-02-04 12:32:49,759 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 12:32:49,760 - parse - DEBUG - format 'the total count based on filtered by sizes is "{total_count}"' -> 'the total count based on filtered by sizes is "(?P<total_count>.+?)"'
+2025-02-04 12:32:49,761 - parse - DEBUG - format 'the total items count is "{total_count}"' -> 'the total items count is "(?P<total_count>.+?)"'
+2025-02-04 12:32:49,761 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 12:33:08,093 - builtins - INFO - total product count is 1
+2025-02-04 12:33:48,204 - builtins - INFO - total product count is 2
+2025-02-04 12:34:05,235 - builtins - INFO - total product count is 1
+2025-02-04 12:34:23,811 - builtins - INFO - total product count is 2
+2025-02-04 12:34:48,587 - builtins - INFO - total product count is 10
+2025-02-04 12:35:13,813 - builtins - INFO - total product count is 10
+2025-02-04 12:35:31,949 - builtins - INFO - total product count is 4
+2025-02-04 14:16:39,277 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 14:16:39,277 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 14:16:39,277 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 14:16:39,277 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 14:16:39,292 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 14:16:39,292 - parse - DEBUG - format 'the user filtered multiple size "{size1}" and "{size2}"' -> 'the user filtered multiple size "(?P<size1>.+?)" and "(?P<size2>.+?)"'
+2025-02-04 14:16:39,292 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 14:16:39,292 - parse - DEBUG - format 'the total count based on filtered by sizes is "{total_count}"' -> 'the total count based on filtered by sizes is "(?P<total_count>.+?)"'
+2025-02-04 14:16:39,292 - parse - DEBUG - format 'the total items count is "{total_count}"' -> 'the total items count is "(?P<total_count>.+?)"'
+2025-02-04 14:16:39,292 - parse - DEBUG - format 'the user adds 4 random items with "Free shipping" to the cart' -> 'the user adds 4 random items with "Free shipping" to the cart'
+2025-02-04 14:16:39,292 - parse - DEBUG - format 'the user adds 1 random items without "Free shipping" to the cart' -> 'the user adds 1 random items without "Free shipping" to the cart'
+2025-02-04 14:16:39,292 - parse - DEBUG - format 'the total cart item count is "{total_count}"' -> 'the total cart item count is "(?P<total_count>.+?)"'
+2025-02-04 14:16:39,292 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 14:17:25,257 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 14:17:25,258 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 14:17:25,259 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 14:17:25,260 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 14:17:25,262 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 14:17:25,263 - parse - DEBUG - format 'the user filtered multiple size "{size1}" and "{size2}"' -> 'the user filtered multiple size "(?P<size1>.+?)" and "(?P<size2>.+?)"'
+2025-02-04 14:17:25,265 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 14:17:25,267 - parse - DEBUG - format 'the total count based on filtered by sizes is "{total_count}"' -> 'the total count based on filtered by sizes is "(?P<total_count>.+?)"'
+2025-02-04 14:17:25,268 - parse - DEBUG - format 'the total items count is "{total_count}"' -> 'the total items count is "(?P<total_count>.+?)"'
+2025-02-04 14:17:25,269 - parse - DEBUG - format 'the user adds 4 random items with "Free shipping" to the cart' -> 'the user adds 4 random items with "Free shipping" to the cart'
+2025-02-04 14:17:25,270 - parse - DEBUG - format 'the user adds 1 random items without "Free shipping" to the cart' -> 'the user adds 1 random items without "Free shipping" to the cart'
+2025-02-04 14:17:25,271 - parse - DEBUG - format 'the total cart item count is "{total_count}"' -> 'the total cart item count is "(?P<total_count>.+?)"'
+2025-02-04 14:17:25,272 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 14:19:19,820 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 14:19:19,821 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 14:19:19,822 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 14:19:19,824 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 14:19:19,826 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 14:19:19,828 - parse - DEBUG - format 'the user filtered multiple size "{size1}" and "{size2}"' -> 'the user filtered multiple size "(?P<size1>.+?)" and "(?P<size2>.+?)"'
+2025-02-04 14:19:19,831 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 14:19:19,833 - parse - DEBUG - format 'the total count based on filtered by sizes is "{total_count}"' -> 'the total count based on filtered by sizes is "(?P<total_count>.+?)"'
+2025-02-04 14:19:19,835 - parse - DEBUG - format 'the total items count is "{total_count}"' -> 'the total items count is "(?P<total_count>.+?)"'
+2025-02-04 14:19:19,837 - parse - DEBUG - format 'the user adds 4 random items with Free shipping to the cart' -> 'the user adds 4 random items with Free shipping to the cart'
+2025-02-04 14:19:19,838 - parse - DEBUG - format 'the user adds 1 random items without Free shipping to the cart' -> 'the user adds 1 random items without Free shipping to the cart'
+2025-02-04 14:19:19,841 - parse - DEBUG - format 'the total cart item count is "{total_count}"' -> 'the total cart item count is "(?P<total_count>.+?)"'
+2025-02-04 14:19:19,843 - parse - DEBUG - format 'close the browser' -> 'close the browser'
+2025-02-04 15:31:53,651 - parse - DEBUG - format 'launch the browser' -> 'launch the browser'
+2025-02-04 15:31:53,652 - parse - DEBUG - format 'open firebase homepage' -> 'open firebase homepage'
+2025-02-04 15:31:53,653 - parse - DEBUG - format 'user validate shopping card page title' -> 'user validate shopping card page title'
+2025-02-04 15:31:53,654 - parse - DEBUG - format 'the user selects size "{size}"' -> 'the user selects size "(?P<size>.+?)"'
+2025-02-04 15:31:53,655 - parse - DEBUG - format 'the user selects different size "{size}"' -> 'the user selects different size "(?P<size>.+?)"'
+2025-02-04 15:31:53,656 - parse - DEBUG - format 'the user filtered multiple size "{size1}" and "{size2}"' -> 'the user filtered multiple size "(?P<size1>.+?)" and "(?P<size2>.+?)"'
+2025-02-04 15:31:53,658 - parse - DEBUG - format 'the items displayed should be filtered by size "{size}"' -> 'the items displayed should be filtered by size "(?P<size>.+?)"'
+2025-02-04 15:31:53,658 - parse - DEBUG - format 'the total count based on filtered by sizes is "{total_count}"' -> 'the total count based on filtered by sizes is "(?P<total_count>.+?)"'
+2025-02-04 15:31:53,661 - parse - DEBUG - format 'the total items count is "{total_count}"' -> 'the total items count is "(?P<total_count>.+?)"'
+2025-02-04 15:31:53,662 - parse - DEBUG - format 'the user adds 4 random items with Free shipping to the cart' -> 'the user adds 4 random items with Free shipping to the cart'
+2025-02-04 15:31:53,663 - parse - DEBUG - format 'the user adds 1 random items without Free shipping to the cart' -> 'the user adds 1 random items without Free shipping to the cart'
+2025-02-04 15:31:53,665 - parse - DEBUG - format 'the total cart item count is "{total_count}"' -> 'the total cart item count is "(?P<total_count>.+?)"'
+2025-02-04 15:31:53,666 - parse - DEBUG - format 'add the "{product}" item using cart' -> 'add the "(?P<product>.+?)" item using cart'
+2025-02-04 15:31:53,667 - parse - DEBUG - format 'remove all the product from cart item' -> 'remove all the product from cart item'
+2025-02-04 15:31:53,668 - parse - DEBUG - format 'user click checkout' -> 'user click checkout'
+2025-02-04 15:31:53,669 - parse - DEBUG - format 'an alert message should be displayed with the correct price as the cart total' -> 'an alert message should be displayed with the correct price as the cart total'
+2025-02-04 15:31:53,670 - parse - DEBUG - format 'the user refreshes the page' -> 'the user refreshes the page'
+2025-02-04 15:31:53,671 - parse - DEBUG - format 'the items in the cart should be reset' -> 'the items in the cart should be reset'
+2025-02-04 15:31:53,672 - parse - DEBUG - format 'close the browser' -> 'close the browser'
