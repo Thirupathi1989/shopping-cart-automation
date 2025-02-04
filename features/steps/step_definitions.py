@@ -124,7 +124,8 @@ def validate_product_count_based_on_size(context, total_size_count):
 def step_when_user_adds_free_shipping_items(context):
     try:
         context.cardPage.select_free_shipping_product()
-    except:
+    except Exception as e:
+        logger.info(str(e))
         context.driver.close()
         assert False, "Test is failed due to unable to select free shipping"
 

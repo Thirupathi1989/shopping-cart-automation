@@ -9,6 +9,7 @@ class ShoppingCartPage(BasePage):
 
     page_title = (By.XPATH, "//title[contains(text(),'Shopping cart')]")
     ipt_size_selection = "//input[@data-testid='checkbox' and @value=\'<size>\']//parent::label"
+    product_table = (By.XPATH, "//div[@class='sc-uhudcz-0 iZZGui']")
     free_shipping = "//*[text()='Free shipping']//parent::*//button"
     without_free_shipping = "//div[contains(@class,'sc-124al1g-2')]"
     fetch_product_count = (By.XPATH, "//main[@class='sc-ebmerl-4 iliWeY']//p")
@@ -46,21 +47,20 @@ class ShoppingCartPage(BasePage):
         return cart_items
 
     def select_free_shipping_product(self):
-        free_shipping_items = self.driver.find_elements_by_xpath(self.free_shipping)
-        #selected_items = random.sample(free_shipping_items, 4)
-        for i in range(1, 4):
-            for item in free_shipping_items:
-                if i <=4:
-                    item.click()
-            if i > 4:
-                break
+        self.verify_element_displayed(self.product_table)
+        free_shipping_items = self.driver.find_elements(By.XPATH, self.free_shipping)
+        selected_items = random.sample(free_shipping_items, 4)
+        for item in selected_items:
+            self.driver.execute_script("arguments[0].click();", item)
 
     def select_without_free_shipping_product(self):
-        shipping_items = self.driver.find_elements_by_xpath(self.without_free_shipping)
+        self.verify_element_displayed(self.product_table)
+        shipping_items = self.driver.find_elements(By.XPATH, self.without_free_shipping)
         for i in len(shipping_items):
-            elements = self.driver.find_elements_by_xpath("(//div[contains(@class,'sc-124al1g-2')])"+"["+i+"]"+"//div[@class='sc-124al1g-3 bHJSNa']")
+            elements = self.driver.find_elements(By.XPATH, "(//div[contains(@class,'sc-124al1g-2')])"+"["+i+"]"+"//div[@class='sc-124al1g-3 bHJSNa']")
             if len(elements)==0:
-                self.driver.find_element_by_xpath("(//button[text()='Add to cart'])["+i+"]").click()
+                element = self.driver.find_element(By.XPATH, "(//button[text()='Add to cart'])["+i+"]")
+                self.driver.execute_script("arguments[0].click();", element)
                 break
 
     def add_product_using_card_items(self, product):
@@ -69,9 +69,9 @@ class ShoppingCartPage(BasePage):
         time.sleep(10)
 
     def remove_product_using_card_items(self):
-        remove_cart = self.driver.find_elements_by_xpath(self.remove_button)
+        remove_cart = self.driver.find_elements(By.XPATH, self.remove_button)
         for item in remove_cart:
-            item.click()
+            self.driver.execute_script("arguments[0].click();", item)
             time.sleep(5)
 
     def click_checkout(self):
